@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Game</title>
+</head>
+
+<body>
+    <header>Quiz Game</header>
+    <main>
+        <div class="quiz_wrapper">
+            <div class="question" id="questionBox">HTML stands for?</div>
+            <div class="options">
+                <ul id="ul">
+                    <li id="opt1" onclick="button(this)"></li>
+                    <li id="opt2" onclick="button(this)"></li>
+                    <li id="opt3" onclick="button(this)"></li>
+                    <li id="opt4" onclick="button(this)"></li>
+                </ul>
+            </div>
+
+            <div class="score">
+                <div class="next">
+                    <button type="button" onclick="next()" id="button">Next</button>
+                </div>
+                <div class="score-card">Score : <span id="scoreCard">0</span></div>
+            </div>
+    </main>
+
+    </div>
+
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
