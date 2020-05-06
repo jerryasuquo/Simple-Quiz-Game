@@ -1,11 +1,9 @@
-/* kjndj */
 body {
     background-image: url("../images/SLXCBJ_1012_.jpg");
     margin: 0;
     padding: 0;
 }
 
-/* kjndj */
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -17,7 +15,6 @@ header {
     margin: 30px 0px -15px;
 }
 
-/* kjndj */
 .quiz_wrapper {
     height: 400px;
     width: 650px;
@@ -147,12 +144,12 @@ header {
     }
 
     .quiz_wrapper .score .next {
-        width: 45%;
+        width: 44%;
         float: left;
     }
 
     .quiz_wrapper .score .score-card {
-        width: 35%;
+        width: 38%;
         float: left;
     }
 }
