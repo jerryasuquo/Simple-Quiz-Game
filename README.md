@@ -2,8 +2,7 @@
 ## StartdotNG Frontend Task 4: Build a Responsive Quiz Game
 
 ### A simple quiz game
-
-Task
+##### Task
 Build a responsive quiz game. Your quiz game should function according to these specifications:
 1. It must have 5 questions of any topic of your choice
 2. Each question must have a minimum of 3 options - 1 correct option and 2 or more wrong options.
