@@ -126,7 +126,7 @@ header {
 /* media queries */
 @media only screen and (max-width: 600px) {
     .quiz_wrapper {
-        height: 400px;
+        height: 500px;
         width: auto;
         background-color: white;
         margin: 30px auto;
@@ -136,11 +136,16 @@ header {
 }
 
 /* score-card */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 558px) {
     .quiz_wrapper .score {
         float: left;
         width: 100%;
         padding: 25px 0px;
+    }
+
+    .quiz_wrapper .score .score-card {
+        width: 57%;
+        float: none;
     }
 
     .quiz_wrapper .score .next {
@@ -148,8 +153,15 @@ header {
         float: left;
     }
 
-    .quiz_wrapper .score .score-card {
-        width: 38%;
-        float: left;
+    .quiz_wrapper .score .next button {
+        padding: 15px 102.5%;
+        color: white;
+        background-color: #FF9800;
+        border: none;
+        border-radius: 8px;
+        font-style: 15px;
+        cursor: pointer;
+        box-shadow: 0px 3px 0px #C97A06;
+        outline: none;
     }
 }
